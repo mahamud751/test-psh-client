@@ -1,0 +1,46 @@
+.all_recommended .splide__arrow--prev::before {
+  content: url("../../assets/img/arrow1.png");
+  /* Add your custom icon or image here */
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 15px 20px;
+}
+
+.all_recommended svg {
+  display: none;
+}
+
+.all_recommended .splide__arrow--next::before {
+  content: url("../../assets/img/arrow2.png");
+  /* Add your custom icon or image here */
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 15px 20px;
+}
+
+/* Customize the left arrow button position */
+
+.all_recommended .splide__arrow--prev {
+  left: 650px;
+  top: 380px !important;
+}
+
+/* Customize the right arrow button position */
+
+.all_recommended .splide__arrow--next {
+  right: 630px;
+  top: 380px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .all_recommended .splide__arrow--prev {
+    left: 210px;
+    top: 410px !important;
+  }
+
+  .all_recommended .splide__arrow--next {
+    right: 200px !important;
+    top: 410px !important;
+  }
+}

@@ -1,0 +1,111 @@
+.sign_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 12.52px 7.84px 13px;
+
+  width: 135.52px;
+  height: 36.84px;
+
+  background: #00bbb4;
+  border-radius: 5px;
+  color: white;
+}
+
+.contact_btn {
+  padding: 13px 20px;
+  gap: 10px;
+  height: 72px;
+  background: #00bbb4;
+  border-radius: 10px;
+}
+
+.contact_btn1 {
+  padding: 13px 120px;
+  gap: 10px;
+
+  height: 49px;
+  background: #35b0a7;
+  border-radius: 10px;
+}
+
+.project {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+
+  color: #35b0a7;
+}
+
+.custom-container {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: -0.002em;
+
+  color: #ffffff;
+}
+
+.footer_li li a {
+  width: 58px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: -0.002em;
+
+  color: #f0e9e9;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navbar_sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+@media screen and (max-width: 600px) {
+  .sign_btn {
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 42px;
+    background: #00bbb4;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+  }
+
+  .sign_out {
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 42px;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+  }
+}
+
+/* .for-mobile-nav {
+  height: 100vh !important;
+} */
